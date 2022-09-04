@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneaker</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-blackx">
+    <div id="wrapper" class="container mx-auto px-5 mt-2">
+      <header>
+        <div class="flex justify-between items-center">
+          <i class="cursor-pointer fa-solid fa-bars text-white bg-blackx-shape p-4 rounded-full" /></i>
+          <div class="text-center">
+            <p class="text-grayx text-sm">Store location</p>
+            <h3 class="text-white font-semibold text-sm">
+              <i class="fa-sharp fa-solid fa-location-dot text-red-400"></i>
+              Mondolibug, Sylhet
+            </h3>
+          </div>
+          <a href="">
+            <i class="fa-solid fa-cart-shopping text-white bg-blackx-shape p-4 rounded-full relative">
+              <div class="rounded-full w-2 h-2 bg-red-400 absolute z-10 top-1 right-1"></div>
+            </i>
+          </a>
+        </div>
+        <label class="flex items-center bg-blackx-shape rounded-2xl mt-6">
+          <i class="fa-solid fa-magnifying-glass text-grayx py-2 px-4"></i>
+          <input class="flex-auto bg-blackx-shape text-sm focus:outline-none text-white py-3 rounded-2xl" type="text" placeholder="Looking for shoes">
+        </label>
+        <div class="flex justify-around fixed bottom-0 z-20 left-0 right-0 bg-blackx-shape py-4">
+          <a href="">
+            <i class="fa-solid fa-house text-xl text-grayx"></i>
+          </a>
+          <a href="">
+            <i class="fa-regular fa-heart text-xl text-grayx"></i>
+          </a>
+          <a href="">
+            <i class="fa-solid fa-bag-shopping text-xl text-grayx"></i>
+          </a>
+          <a href="">
+            <i class="fa-regular fa-bell text-xl text-grayx"></i>
+          </a>
+          <a href="">
+            <i class="fa-regular fa-user text-xl text-grayx"></i>
+          </a>
+        </div>
+      </header>
+
+      <div id="content">
+        <div class="flex justify-around mt-8">
+          <img class="w-11 h-11" src="./images/brands/nike.png" alt="">
+          <img class="w-11 h-11" src="./images/brands/puma.png" alt="">
+          <img class="w-11 h-11" src="./images/brands/under_armour.png" alt="">
+          <img class="w-11 h-11" src="./images/brands/adidas.png" alt="">
+          <img class="w-11 h-11" src="./images/brands/converse.png" alt="">
+        </div>
+
+        <div id="list" class="mt-6">
+          <div class="flex justify-between items-center">
+            <h3 class="text-base font-bold text-white">Popular Shoes</h3>
+            <p class="text-bluex text-sm">See all</p>
+          </div>
+          <div class="grid grid-cols-2 sm:grid-cols-4 mt-4 gap-3">
+            <div class="bg-blackx-shape rounded-2xl">
+              <img class="py-2 px-3 w-11/12" src="./images/sneakers/sneaker_12.png" alt="">
+              <div class="pl-6 py-3">
+                <div class="text-sm text-bluex font-medium">BEST SELLER</div>
+                <div class="text-base text-white font-semibold mt-1">Nike Jordan</div>
+                <div class="text-sm text-white font-semibold mt-2">$493.00</div>
+              </div>
+            </div>
+            <div class="bg-blackx-shape rounded-2xl">
+              <img class="py-2 px-3 w-11/12" src="./images/sneakers/sneaker_3.png" alt="">
+              <div class="pl-6 py-3">
+                <div class="text-sm text-bluex font-medium">BEST SELLER</div>
+                <div class="text-base text-white font-semibold mt-1">Nike Air Max</div>
+                <div class="text-sm text-white font-semibold mt-2">$493.00</div>
+              </div>
+            </div>
+            <div class="bg-blackx-shape rounded-2xl">
+              <img class="py-2 px-3 w-11/12" src="./images/sneakers/sneaker_1.png" alt="">
+              <div class="pl-6 py-3">
+                <div class="text-sm text-bluex font-medium">BEST SELLER</div>
+                <div class="text-base text-white font-semibold mt-1">Nike Jordan</div>
+                <div class="text-sm text-white font-semibold mt-2">$493.00</div>
+              </div>
+            </div>
+            <div class="bg-blackx-shape rounded-2xl">
+              <img class="py-2 px-3 w-11/12" src="./images/sneakers/sneaker_2.png" alt="">
+              <div class="pl-6 py-3">
+                <div class="text-sm text-bluex font-medium">BEST SELLER</div>
+                <div class="text-base text-white font-semibold mt-1">Nike Air Max</div>
+                <div class="text-sm text-white font-semibold mt-2">$493.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6 mb-20">
+          <div class="flex justify-between items-center">
+            <h3 class="text-base font-bold text-white">New Arrivals</h3>
+            <p class="text-bluex text-sm">See all</p>
+          </div>
+
+          <div class="flex mt-4">
+            <div class="bg-blackx-shape rounded-2xl pr-2 flex grow justify-around">
+              <div class="pl-2 py-3">
+                <div class="text-sm text-bluex font-medium">BEST CHOICE</div>
+                <div class="text-base text-white font-semibold mt-1">Nike Air Jordan</div>
+                <div class="text-sm text-white font-semibold mt-2">$849.69</div>
+              </div>
+              <img class="py-2 px-3" src="./images/sneakers/sneaker_4.png" alt="">
+            </div>
+          </div> 
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
