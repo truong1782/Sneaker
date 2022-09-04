@@ -678,6 +678,22 @@ video {
   top: 0px;
 }
 
+.top-20 {
+  top: 5rem;
+}
+
+.top-\[2px\] {
+  top: 2px;
+}
+
+.top-\[4px\] {
+  top: 4px;
+}
+
+.top-\[5px\] {
+  top: 5px;
+}
+
 .z-10 {
   z-index: 10;
 }
