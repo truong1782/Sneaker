@@ -15,25 +15,57 @@
     />
   </head>
   <body class="bg-blackx">
-    <div id="wrapper" class="container mx-auto px-5 mt-2">
-      <header>
-        <div class="flex justify-between items-center">
-          <i class="cursor-pointer fa-solid fa-angle-left text-white bg-blackx-shape p-4 rounded-full" /></i>
-          <div class="text-center">
-            <h3 class="text-white font-semibold text-sm">
-              Men's shoes
-            </h3>
-          </div>
-          <a href="">
-            <i class="fa-solid fa-cart-shopping text-white bg-blackx-shape p-4 rounded-full relative">
-              <div class="rounded-full w-2 h-2 bg-red-400 absolute z-10 top-1 right-1"></div>
-            </i>
-          </a>
+    <header class="container mx-auto px-5 mt-2">
+      <div class="flex justify-between items-center">
+        <i class="cursor-pointer fa-solid fa-angle-left text-white bg-blackx-shape py-4 px-5 rounded-full" /></i>
+        <div class="text-center">
+          <h3 class="text-white font-semibold text-sm">
+            Men's shoes
+          </h3>
         </div>
-      </header>
+        <a href="">
+          <i class="fa-solid fa-cart-shopping text-white bg-blackx-shape p-4 rounded-full relative">
+            <div class="rounded-full w-2 h-2 bg-red-400 absolute z-10 top-1 right-1"></div>
+          </i>
+        </a>
+      </div>
+    </header>
+    
+    <div class="grid grid-cols-1">
+      <img class="w-full px-10 mt-2" src="./images/sneakers/sneaker_6.png" alt="">
+      <div class="bg-blackx-shape w-full rounded-t-3xl mt-4">
+        <div class="px-4 py-4 mb-24">
+          <div class="text-sm text-bluex font-base">BEST SELLER</div>
+          <div class="text-2xl text-white font-semibold mt-1">Nike Jordan</div>
+          <div class="text-xl text-white font-semibold mt-2">$493.00</div>
+          <p class="text-grayx leading-5 text-sm mt-2">Air Jordan is an American brand of basketball shoes athletic, casual, and style clothing produced by Nike....</p>
+        
+          <div class="flex items-baseline">
+            <h3 class="text-lg text-white font-medium mt-4">Size</h3>
+            <div class="px-2 text-sm text-white font-medium ml-auto">EU</div>
+            <div class="px-2 text-sm text-grayx font-medium">US</div>
+            <div class="px-2 text-sm text-grayx font-medium">UK</div>
+          </div>
 
-     
-
+          <div class="flex justify-between mt-4">
+            <div class="px-3 py-2 bg-blackx rounded-full text-grayx">38</div>
+            <div class="px-3 py-2 bg-blackx rounded-full text-grayx">39</div>
+            <div class="px-3 py-2 bg-blackx rounded-full text-grayx">40</div>
+            <div class="px-3 py-2 bg-blackx rounded-full text-grayx">41</div>
+            <div class="px-3 py-2 bg-blackx rounded-full text-grayx">42</div>
+            <div class="px-3 py-2 bg-bluex rounded-full text-white">43</div>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="container mx-auto p-4 grid grid-cols-2 fixed bottom-0 bg-blackx-shape rounded-t-2xl border-t-2 border-blackx">
+      <div class="grid grid-rows-2">
+        <div class="text-base font-normal text-grayx">Price</div>
+        <div class="text-xl text-white font-medium">$849.69</div>
+      </div>
+      <button class="text-lg text-white font-medium bg-bluex rounded-3xl">Add to Cart</button>
+    </div>
+
   </body>
 </html>
